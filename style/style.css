@@ -1,0 +1,132 @@
+*{
+    margin: 10px;
+}
+
+/* Shared style  */
+.btn-primary{
+border-radius: 8px;
+background: rgb(0, 106, 80);
+width: 270px;
+height: 56px;
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+border: none;
+}
+
+h1{
+
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+h2{
+
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: ;
+}
+
+.middle-text{
+    text-align: center;
+    
+}
+
+
+
+.Bangladesh2{
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+
+
+/* Nav style */
+nav{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 24px 160px 24px 160px;
+
+}
+
+/* Hero Style  */
+.hero{
+ display: flex;
+ border-radius: 24px;
+background: rgb(198, 228, 214);
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 64;
+padding: 80px 100px 80px 100px;
+justify-content: space-between;
+
+}
+
+/* Vision style  */
+.vision-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.vision-description{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+
+.vision-box{
+    display: flex;
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+
+}
