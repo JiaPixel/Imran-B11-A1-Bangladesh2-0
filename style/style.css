@@ -168,7 +168,8 @@ p{
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0%;
-    margin-bottom: 10px;    
+    margin-bottom: 10px;
+    margin-top: 20px;    
 }
 
 .middle-text{
@@ -367,7 +368,7 @@ width: 1280px;
 
     border-radius: 16px;
 
-background: rgb(255, 255, 255);
+background: #ffffff;
 }
 
 th{
@@ -388,6 +389,13 @@ background: rgba(255, 255, 255, 0.1);
 padding: 24px;
 
 }
+
+select{
+    background-color: #C6E4D6;
+    padding: 24px;
+
+}
+
 
 .younus{
     background-image: url(/assets/quote-bg.png);
