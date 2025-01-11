@@ -455,7 +455,7 @@ padding: 24px;
     text-align: center;
     border: none;
     padding: 40px;
-
+    gap: 20px;
 }
 
 .btn-taka200{
@@ -479,6 +479,9 @@ padding: 24px;
 
 }
 
+.btn-taka200:hover{
+    background-color: yellow;
+}
 
 
 /* .Newsletter-section */
