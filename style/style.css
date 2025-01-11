@@ -390,7 +390,7 @@ select{
 
 
 .younus{
-    background-image: url(/assets/quote-bg.png);
+    background-image: url('../assets/quote-bg.png');
     background-repeat: no-repeat;
     background-position: top left;
     padding: 48px;
