@@ -187,6 +187,7 @@ nav{
 display: flex;
 
 
+
 }
 
 .nav-title{
@@ -388,7 +389,22 @@ padding: 24px;
 
 }
 
+.younus{
+    background-image: url(/assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding: 48px;
+}
+.younus-title{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
 
+}
 
 /* Style News */
 
@@ -460,7 +476,7 @@ padding: 24px;
 
 .btn-taka200{
     border-radius: 16px;
-    background: #4aca8e
+    background: #ca2d6a
     color#0E0E0ECC;
     width: 252px;
     height: 158px;
@@ -483,10 +499,8 @@ padding: 24px;
     background-color: yellow;
 }
 
-
 /* .Newsletter-section */
 .Newsletter-section {
- 
 
 padding: 80px 100px 80px 100px;
     border-radius: 24px;
@@ -510,13 +524,15 @@ font-size: 18px;
 font-weight: 600;
 line-height: 22px;
 letter-spacing: 0%;
-text-align: center;
-border: none;
+text-align: center
+border-left: none;
 }
+
 .email{
     padding: 18px 300px 18px 20px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    border-right: none;
 }
 
 /* footer style  */
@@ -527,8 +543,7 @@ footer{
            
     align-items: center; 
     width: 1280px;
-   
-    margin-bottom: 50px;
+     margin-bottom: 50px;
     
   
   
