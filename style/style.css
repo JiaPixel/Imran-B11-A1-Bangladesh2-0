@@ -17,7 +17,9 @@ letter-spacing: 0%;
 text-align: center;
 border: none;
 }
-
+.section{
+    width: 1280px;
+}
 h1{
 
     color: rgb(14, 14, 14);
@@ -172,9 +174,16 @@ padding: 24px;
 
 /* footer style  */
 
-.footer-social-image{
-display: flex;
-justify-content: space-around;
+footer{
+    
+        text-align: center; 
+               
+        align-items: center; 
+        width: 1280px;
+        
+      
+      
+}
 
 }
 /* Style News */
