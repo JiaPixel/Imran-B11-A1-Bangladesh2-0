@@ -208,6 +208,7 @@ align-items: center;
 gap: 64;
 padding: 80px 100px 80px 100px;
 justify-content: space-between;
+margin-bottom: 80px;
 
 }
 
@@ -260,6 +261,11 @@ letter-spacing: 0%;
 text-align: left;
 
 
+}
+.section{
+    margin-top: 24px;
+    margin-bottom: 80px;
+    
 }
 
 .vision-box{
@@ -365,6 +371,17 @@ footer{
 
 /* .Newsletter-section */
 .Newsletter-section {
+ 
+
+padding: 80px 100px 80px 100px;
+    border-radius: 24px;
+background: rgb(198, 228, 214);
     align-items: center;
     text-align: center;
+    margin-bottom: 80px;
+
+}
+
+.email{
+    padding: 18px 200px 18px 20px;
 }
