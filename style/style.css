@@ -133,6 +133,7 @@ border: none;
 }
 .section{
     width: 1280px;
+    border-bottom: 24px;
 }
 h1{
 
@@ -153,7 +154,7 @@ h2{
     font-weight: 700;
     line-height: 48px;
     letter-spacing: 0%;
-    text-align: left;
+    
 
 }
 
@@ -190,10 +191,8 @@ p{
 /* Nav style */
 nav{
 display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 24px 0px 24px 0px;
+
+
 
 }
 
@@ -213,6 +212,33 @@ justify-content: space-between;
 }
 
 /* Vision style  */
+
+
+
+.box1{
+
+    padding: 32px;
+    border: 16px;
+    border-radius: 16px;
+    background-color: #5490F533;
+}
+
+.box2{
+
+    padding: 32px;
+    border: 16px;
+    border-radius: 16px;
+    background-color: #C6E4D6;
+}
+
+.box3{
+
+    padding: 32px;
+border: 16px;
+border-radius: 16px;
+    background-color: #F7EBCF;
+}
+
 .vision-title{
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
@@ -233,6 +259,7 @@ line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
 
+
 }
 
 .vision-box{
@@ -244,6 +271,7 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
+gap: 24px;
 
 }
 
@@ -308,16 +336,35 @@ footer{
 }
 
 .news1{
-
+    
     display: flex;
+    gap: 20px;
 }
 
 .news2{
 
     display: flex;
+    gap: 20px;
 }
 
 .news3{
 
     display: flex;
+    gap: 20px;
+}
+
+.news-image{
+    border-radius: 24px;
+}
+
+/* donate-section */
+.donate-section{
+    align-items: center;
+    text-align: center;
+}
+
+/* .Newsletter-section */
+.Newsletter-section {
+    align-items: center;
+    text-align: center;
 }
