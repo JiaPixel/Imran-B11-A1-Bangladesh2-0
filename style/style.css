@@ -141,7 +141,22 @@ justify-content: space-around;
 }
 /* Style News */
 
-.news{
+.news-message{
+    
+
+}
+
+.news1{
+
+    display: flex;
+}
+
+.news2{
+
+    display: flex;
+}
+
+.news3{
 
     display: flex;
 }
