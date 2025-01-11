@@ -115,8 +115,7 @@
 .btn-primary{
 border-radius: 8px;
 background: rgb(0, 106, 80);
-width: 270px;
-height: 56px;
+padding: 11px 20px 11px 20px;
 color: rgb(255, 255, 255);
 font-family: Fira Sans;
 font-size: 18px;
@@ -127,6 +126,8 @@ text-align: center;
 border: none;
 
 }
+
+
 
 .btn-primary:hover{
     background-color: red;
@@ -144,6 +145,7 @@ h1{
     line-height: 67px;
     letter-spacing: 0%;
     text-align: left;
+    margin-bottom: 20px;
 
 }
 h2{
@@ -154,6 +156,7 @@ h2{
     font-weight: 700;
     line-height: 48px;
     letter-spacing: 0%;
+    margin-bottom: 40px;
     
 
 }
@@ -165,7 +168,7 @@ p{
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0%;
-    text-align: ;
+    margin-bottom: 10px;    
 }
 
 .middle-text{
@@ -175,16 +178,7 @@ p{
 
 
 
-.Bangladesh2{
-    color: rgba(14, 14, 14, 0.5);
-    font-family: Fira Sans;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 29px;
-    letter-spacing: 0%;
-    text-align: left;
 
-}
 
 
 
@@ -193,7 +187,17 @@ nav{
 display: flex;
 
 
+}
 
+.nav-title{
+
+    color: #0d0d0d;
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
 }
 
 /* Hero Style  */
@@ -288,7 +292,68 @@ gap: 24px;
 
 }
 
+.btn-vision1{
+    border-radius: 8px;
+background: #5490F5;
+padding: 11px 20px 11px 20px;
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+border: none;
 
+
+
+}
+.btn-vision2{
+    border-radius: 8px;
+    background: #09A15C;
+    padding: 11px 20px 11px 20px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+}
+.btn-vision3{
+    border-radius: 8px;
+    background: #FFC239;
+    padding: 11px 20px 11px 20px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+}
+.btn-vision3:hover{
+    background-color: red;
+}
+.btn-vision2:hover{
+    background-color: red;
+}
+
+.btn-vision1:hover{
+    background-color: red;
+}
+.btn-sub:hover{
+    background-color: red;
+}
+
+/* younus declaration */
+.decleration{
+    padding: 48px, 24px, 48px, 24px;
+    background-color: #FFFFFF;
+    
+}
 /* openion style */
 .openion-title{
     border-bottom: 240px;
@@ -297,7 +362,6 @@ gap: 24px;
 table{
     position: static;
 width: 1280px;
-height: 409px;
     border-collapse: collapse;
 
     border-radius: 16px;
@@ -306,15 +370,12 @@ background: rgb(255, 255, 255);
 }
 
 th{
+
     border-collapse: collapse;
-    display: flex;
-        border: 1px solid rgba(14, 14, 14, 0.15);
-    background: rgb(198, 228, 214);
+   
+      text-align: left;
+    background: #c6e4d6;
     padding: 24px;
-
-justify-content:space-between;
-
-gap: 24;
 
     
 }
@@ -331,8 +392,15 @@ padding: 24px;
 
 /* Style News */
 
-.news-message{
+.news-title{
 
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
 
 }
 
@@ -364,6 +432,35 @@ padding: 24px;
     text-align: center;
 }
 
+
+
+.donate-box{
+    margin-bottom: 20px;
+    padding: 20px 40px;
+    width: 1032px;
+    text-align: center;
+
+}
+.btn-taka{
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background: #FFFFFF
+    width: 120px;
+    height: 56px;
+    color: #0E0E0ECC
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    padding: 40px;
+
+}
+
+
+
 /* .Newsletter-section */
 .Newsletter-section {
  
@@ -377,8 +474,26 @@ background: rgb(198, 228, 214);
 
 }
 
+.btn-sub{
+
+border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+background: #006a50;
+width: 120px;
+height: 56px;
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: center;
+border: none;
+}
 .email{
-    padding: 18px 200px 18px 20px;
+    padding: 18px 300px 18px 20px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 /* footer style  */
@@ -389,9 +504,22 @@ footer{
            
     align-items: center; 
     width: 1280px;
-    margin-top: 50px;
+   
     margin-bottom: 50px;
     
   
   
+}
+.footer-title{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+margin: 64px 0px;
+}
+
+.footer-img{
+   
+   gap: 23px
+
 }
